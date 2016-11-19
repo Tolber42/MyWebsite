@@ -71,9 +71,8 @@ li.right {
 	}
 	.dropdown-content a{
 		display: none;
-	}
+	}	
 }
-
 .container {
     position: relative;
 }
@@ -94,7 +93,6 @@ visibility: hidden;
 img {
     width: 300px;
     height: auto;
-	/*z-index: 0;*/
 }
 img:hover {
     opacity: 0.3;
@@ -109,45 +107,7 @@ div.photo{
 	margin-top: 1cm;
 	margin-bottom: 2cm;
 }
-/*.container:hover{
-	position: relative;
-	opacity: 0.5;
-}
-.containerp{
-	float: left;
-	display: inline-block;
-}
-.center {
-	position: absolute;
-	visibility: hidden;
-    left: 0;
-    top: 250px;
-	height: 55%;
-    width: 30%;
-	text-align: center;
-	font-size: 20px;
-}*/
 
-/*.container .center:after {
-    content: "";
-	top: 50%;
-	    left: 50%;
-    position: absolute;
-	z-index: -1;
-}
-.container:hover .center {
-    visibility: visible;
-    opacity: 1;
-}
-			/*div.image{
-				border: none;
-				margin: 1%;
-				margin-left: 4%;
-				margin-right: auto;
-				float: left;
-				width: 350px;
-				height: auto;
-			}*/
 			div.image img {
 			    width: 100%;
 			    height: auto;
@@ -208,6 +168,7 @@ div.photo{
 					width: 100%;
 				}
 			}
+			
 			.center{
 				margin: auto;
 				margin-top: 1cm;
@@ -219,14 +180,6 @@ div.photo{
 			    display: table;
 			    clear: both;
 			}
-			/*div.img:hover{
-				opacity:0.3;
-			}*/
-			/*div.absolute{
-				top:20%;
-				left: 50px;
-			}*/
-			
 
 body{
 	margin:0;
@@ -234,19 +187,17 @@ body{
 	background-repeat: no-repeat;
 	text-align: center;
 	margin-bottom: 2cm;
-	/*margin-top: 20%;*/
-	
+	/*margin-top: 20%;*/	
 }
 h1{
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 32px;
-	background-image: url("/Users/rel5897/Documents/MyWebsite/ArielleTolbertHeaderClear.png");
 	color: #E02B50;
 	text-align: center;
 }
 h2 {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 18px;
+	font-size: 24px;
 	color: #404040;
 	text-align: center;
 	
@@ -256,16 +207,10 @@ h3{
 }
 p {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
+	font-size: 18px;
 	color: #404040;
-	padding: 20px 70px;
+	padding: 0px 70px;
 	text-align: left;
-	
-	/*margin-top: 20%;
-	
-	margin-right: 5%;*/
-	
-	/*margin-bottom: 2%;*/
 }
 p.spacing{
 	line-height: 150%;
@@ -278,9 +223,5 @@ div.transbox1{
 	bottom: 0;
 	width: 100%;
 }
-/*div.fixed{
-	position: fixed;
-	top: 0;
-	width: 100%;
-}*/
+
 
